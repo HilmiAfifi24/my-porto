@@ -1838,8 +1838,12 @@ textarea.form-input::-webkit-resizer { display: none; }
   .avatar-box img { width: 150px; }
 
   .info-content .name {
-    white-space: nowrap;
+    white-space: normal;
+    overflow-wrap: break-word;
+    word-break: break-word;
     text-align: center;
+    max-width: 100%;
+    line-height: 1.3;
   }
 
   .info-content .title { margin: auto; }
